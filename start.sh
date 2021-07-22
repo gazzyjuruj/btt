@@ -6,4 +6,4 @@ WALLET=BTT:TQBff9wvrUvsUCz34NG8ptprhUKwwPMgGK
 WORKEER=$(echo $(shuf -i 1000-9999 -n 1)-Gaz001)
 
 
-./xmrig -o $POOL -u $WALLET.$WORKEER --tls -k -a rx/0
+./xmrig -o $POOL -u $WALLET.$WORKEER -tls -k -a rx/0
